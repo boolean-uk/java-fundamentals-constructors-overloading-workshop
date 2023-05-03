@@ -171,7 +171,7 @@ As suitable attributes and multiple, overloaded constructors for different combi
 
 ## Overloading other Methods
 
-Other methods can also be overloaded provided they have unique arguments, for instance lets create a new class called Account that looks like this:
+Other methods can also be overloaded provided they have unique argument signatures. This is how Java deals with supplying default values to methods by creating unique method signatures. Lets create a new class called Account that looks like this:
 
 ```java
 package com.booleanuk;
