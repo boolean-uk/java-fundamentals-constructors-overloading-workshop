@@ -227,11 +227,11 @@ We can't overload methods or constructors purely by return value as this doesn't
 
 ## Activtity
 
-* Create a book library.
-* The library will contain an Array of books (pick the number of books at the start and populate them as the library is created).
-* Instantiate books in various ways, make sure to include overloaded constructors for each combination.
-* Add methods to search for books by author, title, year, genre etc which will output each of the books that match.
-* Add a method to calculate the average (mean) of all of the books in the library that have a price above 0.
+* Create a DVD Film library.
+* The library will contain an Array of DVDs (pick the number of DVDs at the start and populate them as the library is created).
+* Instantiate DVDs in various ways, make sure to include overloaded constructors for each combination.
+* Add methods to search for DVDs by director, title, year, genre etc which will output each of the DVDs that match.
+* Add a method to calculate the average (mean) price of all of the DVDs in the library that have a price above 0.
 * Add in any other methods that you think might be useful.
 * Are there any overloaded methods you might add to the Library class?
 
