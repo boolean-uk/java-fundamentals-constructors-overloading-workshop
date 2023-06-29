@@ -9,7 +9,7 @@
 
 When we've created new classes up until now we've either assigned default values to the member variables/attributes or we've changed them as we go. There is a much better way of doing this, which is to use a special Method called a **Constructor** to assign values to the variables as we create (or Construct) them.
 
-You've actually already seen Constructors in action when we've been creating **new** instances of some of the built in objects.
+You've actually already seen Constructors in action when we've been creating **new** instances of some of the built-in objects.
 
 For instance when we want to get user input we've been doing:
 
@@ -53,7 +53,7 @@ public Book() {
         }
 ```
 
-Then we want to add parameters to the method call. To begin with let's add arguments for each of the member variables, the standard way to do this is to call them by the same names as the member variables (but the can actually have any names you want).
+Then we want to add parameters to the method call. To begin with let's add arguments for each of the member variables, the standard way to do this is to call them by the same names as the member variables (but they can actually have any names you want).
 
 ```java
 public Book(String title, String author, double price, int year, String genre, boolean paperback) {
@@ -171,7 +171,7 @@ As suitable attributes and multiple, overloaded constructors for different combi
 
 ## Overloading other Methods
 
-Other methods can also be overloaded provided they have unique argument signatures. This is how Java deals with supplying default values to methods by creating unique method signatures. Lets create a new class called Account that looks like this:
+Other methods can also be overloaded provided they have unique argument signatures. This is how Java deals with supplying default values to methods by creating unique method signatures. Let's create a new class called Account that looks like this:
 
 ```java
 package com.booleanuk;
@@ -225,7 +225,7 @@ Account withDouble = new Account(15.65);
 
 We can't overload methods or constructors purely by return value as this doesn't work. Although it would work if the signatures were different as there are lots of methods which return values of a given type that match what the arguments were. You can often see these in the Maths libraries where if an argument is a float it returns a float, if it's a double it returns a double etc.
 
-## Activtity
+## Activity
 
 * Create a DVD Film library.
 * The library will contain an Array of DVDs (pick the number of DVDs at the start and populate them as the library is created).
